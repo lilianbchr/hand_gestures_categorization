@@ -106,7 +106,7 @@ def main(input_dir, output_dir):
             print(f"Duplicate filename skipped : {filename}")
     return final_img
 
-output_dir = r"C:\Users\camil\Documents\DSTI\Deep_Learning_with_Python\output_images\\"
-img_dir = r"C:\Users\camil\Documents\DSTI\Deep_Learning_with_Python\input_images\\"
+output_dir = r"C:\Users\camil\Documents\DSTI\Deep_Learning_with_Python\hand_gestures_categorization\output_images\\"
+img_dir = r"C:\Users\camil\Documents\DSTI\Deep_Learning_with_Python\hand_gestures_categorization\input_images\\"
 
 main(img_dir, output_dir)
